@@ -1,4 +1,5 @@
-body {background-color: wheat;}
+body {background-color: rgb(199, 133, 35);
+    background-image: url("rough-beige-stucco-surface.jpg")}
 
 header { font-size: 28px; 
         background-color: rgb(86, 156, 86);  
@@ -12,9 +13,20 @@ h1 {text-align: center;
     }
 
 h2 {text-align: center;
-background-color: brown;
+background-color: rgb(190, 47, 47);
 font-size: 38px;
     margin-inline: 100px;
     padding: 15px;}
 
-#wrapper {background-color: rgb(255, 223, 223); min-width: auto; max-width: 1000px; margin: 0 auto;}
+ul {font-size: 18px;
+    line-height: 25px;}
+
+#wrapper {background-color: rgb(255, 223, 223);
+        ; 
+            min-width: auto; 
+            max-width: 1000px; 
+            margin: 0 auto;
+            border-style: solid;
+            border-radius: 5px;
+            border-width: 5px;
+            border-color: rgb(65, 50, 23);}
