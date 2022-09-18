@@ -1,1 +1,20 @@
 body {background-color: wheat;}
+
+header { font-size: 28px; 
+        background-color: rgb(86, 156, 86);  
+        margin-inline: 15px;
+        margin-bottom: 15px;
+        
+        }
+
+h1 {text-align: center;
+     padding: 20px;
+    }
+
+h2 {text-align: center;
+background-color: brown;
+font-size: 38px;
+    margin-inline: 100px;
+    padding: 15px;}
+
+#wrapper {background-color: rgb(255, 223, 223); min-width: auto; max-width: 1000px; margin: 0 auto;}
