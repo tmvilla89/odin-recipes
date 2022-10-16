@@ -1,22 +1,38 @@
+html {
+    overflow-y: scroll;
+}
+
 body {background-color: rgb(199, 133, 35);
     background-image: url("rough-beige-stucco-surface.jpg")}
 
 header { font-size: 28px; 
         background-color: rgb(86, 156, 86);  
-        
+        text-decoration: none;
         margin-bottom: 15px;
         
         }
 
 h1 {text-align: center;
      padding: 20px;
+     
     }
 
+h1 a {display: block;
+    color: black;
+    text-decoration: none;}
+
+h1 a:hover {color: aliceblue;}
+
 h2 {text-align: center;
-background-color: rgb(190, 47, 47);
-font-size: 38px;
+    background-color: rgb(190, 47, 47);
+    font-size: 38px;
     
     padding: 15px;}
+
+h3 {text-align: center;
+text-decoration: underline;
+font-size: 25px;}
+
 nav a:hover {color: aliceblue;}
 nav ul {font-size: 20px;
     padding: 0;
@@ -30,9 +46,15 @@ nav li a {display: block;
     color: black;
     text-decoration: none;
     text-align: center;
-    margin-inline: 95px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-inline: 75px;
 margin-block: 20px;}
 
+ul li, ol li { font-size: 18px;
+    padding: 10px;
+    
+}
 
 
 .center {
@@ -43,11 +65,21 @@ margin-block: 20px;}
     max-width: 70%;
 }
 
-.box {background-color: aliceblue;
-    margin-inline: 15px;}
+.header-box {background-color: aliceblue;
+    margin-inline: 15px;
+    
+}
+
+.list-box {background-color: rgb(250, 253, 213);
+    margin-inline: 45px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(124, 93, 39);
+margin-bottom: 15px;}
 
 #wrapper {background-color: rgb(255, 223, 223);
-        ; 
+         
             min-width: auto; 
             max-width: 1000px; 
             margin: 0 auto;
